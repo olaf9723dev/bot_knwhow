@@ -17,8 +17,7 @@ import pygetwindow as gw
 
 BROWSER_WS_ENDPOINT = "http://127.0.0.1:4567"
 
-# solver = TwoCaptcha('204a916e9519e178b27ee1b3c1a08f72')
-solver = TwoCaptcha('43fd4b9f30bf5fb87af2b5ab1e6313d8')
+solver = TwoCaptcha('')
 default_user_data_dir = os.path.join(os.getcwd(), "playwright_user_data")
 if not os.path.exists(default_user_data_dir):
     os.makedirs(default_user_data_dir)
