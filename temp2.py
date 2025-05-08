@@ -13,8 +13,7 @@ from twocaptcha import TwoCaptcha
 from email_creator import EmailCreator
 from playwright.sync_api import sync_playwright
 
-solver = TwoCaptcha('204a916e9519e178b27ee1b3c1a08f72')
-# solver = TwoCaptcha('43fd4b9f30bf5fb87af2b5ab1e6313d8')
+solver = TwoCaptcha('')
 class Bot:
     def __init__(self) -> None:
         self.emails = []
